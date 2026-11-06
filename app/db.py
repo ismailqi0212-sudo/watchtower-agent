@@ -1,7 +1,7 @@
 """SQLite persistence layer.
 
 Deliberately plain sqlite3 instead of an ORM: the schema is small, the project
-is easy to run, and every query stays visible for interview walkthroughs.
+is easy to run, and every query stays visible for debugging and maintenance.
 """
 
 from __future__ import annotations

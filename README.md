@@ -12,7 +12,7 @@
 [![Tests](https://img.shields.io/badge/tests-12%20passed-5EE0A0)](#测试)
 [![License](https://img.shields.io/badge/license-MIT-63E6D5)](LICENSE)
 
-[快速开始](#90-秒跑起来) · [架构](docs/architecture.md) · [面试笔记](docs/interview-notes.md) · [API Docs](http://127.0.0.1:8000/docs)
+[快速开始](#90-秒跑起来) · [架构](docs/architecture.md) · [API Docs](http://127.0.0.1:8000/docs)
 
 </div>
 
@@ -101,16 +101,13 @@ Watchtower 用三个工程约束回答：
 
 ## 完整手册
 
-项目架构、数据链路、Agent、研究、研报、评测与演示话术完整说明：
+项目架构、数据链路、Agent、研究、研报与评测完整说明：
 
 - [项目完整手册](docs/project-handbook.md)
-- [演示脚本](docs/demo-script.md)
 
 ---
 
-## 面试演示：双击 Watchtower.command（推荐）
-
-完整演示流程和话术见 [docs/demo-script.md](docs/demo-script.md)。
+## 本地启动：双击 Watchtower.command（推荐）
 
 不要再用 Safari 的“添加到 Dock”网页快捷方式：它只打开 URL，不会启动后端；后端没起来就会打不开。
 
@@ -527,7 +524,7 @@ watchtower-agent/
 ├── web/                       # React 19 + HeroUI v3 + Tailwind v4 + Vite
 ├── tests/                     # 24 个 pytest
 ├── scripts/                   # seed / daily job / fixture generator
-├── docs/                      # 架构、面试笔记、截图
+├── docs/                      # 架构、项目手册、截图
 ├── Dockerfile
 ├── docker-compose.yml
 └── .github/workflows/         # CI + 每日任务
@@ -615,7 +612,7 @@ docker compose up --build
 这个任务的核心不是“角色扮演”，而是可靠地取数、取证、生成可校验的计划。单 Agent + 确定性校验器已经能覆盖；多 Agent 会引入状态同步、成本、调试复杂度，但未必提升结论质量。
 
 **为什么用 SQLite，不用 Postgres/向量库？**
-数据量和查询模式都很简单：runs、traces、reports、chat。SQLite 零运维，面试时也能把 schema 讲清楚。新闻检索按股票+日期过滤即可，不需要 RAG。
+数据量和查询模式都很简单：runs、traces、reports、chat。SQLite 零运维，适合当前单用户、低并发的使用场景。新闻检索按股票+日期过滤即可，不需要 RAG。
 
 **为什么 demo-policy 和 LLM 共用一套工具？**
 这样两者输出可以直接对比，也让 LLM 失败时有真正的 fallback，而不是返回一个空壳。工具、证据、校验器是产品的“确定性骨架”，模型只是其中一个可替换组件。
