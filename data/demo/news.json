@@ -1,0 +1,248 @@
+{
+  "600519": [
+    {
+      "id": "news-600519-1",
+      "title": "机构上调贵州茅台目标价，维持“买入”评级",
+      "sentiment": "positive",
+      "source": "机构研报",
+      "date": "2026-10-27",
+      "summary": "多家机构认为高端白酒需求韧性仍在，直销渠道占比提升有望支撑利润率。",
+      "url": "https://example.com/demo/600519/1"
+    },
+    {
+      "id": "news-600519-2",
+      "title": "贵州茅台三季度营收同比增长 9.8%",
+      "sentiment": "positive",
+      "source": "公司公告",
+      "date": "2026-10-23",
+      "summary": "公司披露三季度经营数据，营收与净利润均实现稳健增长，现金流保持充裕。",
+      "url": "https://example.com/demo/600519/2"
+    },
+    {
+      "id": "news-600519-3",
+      "title": "北向资金连续三日净卖出白酒板块",
+      "sentiment": "negative",
+      "source": "财联社",
+      "date": "2026-10-23",
+      "summary": "外资对消费板块的配置出现短期波动，白酒龙头承压。",
+      "url": "https://example.com/demo/600519/3"
+    },
+    {
+      "id": "news-600519-4",
+      "title": "贵州茅台宣布新一轮股份回购计划",
+      "sentiment": "positive",
+      "source": "公司公告",
+      "date": "2026-10-21",
+      "summary": "回购计划释放管理层对长期价值的信心，回购股份拟用于员工持股计划。",
+      "url": "https://example.com/demo/600519/4"
+    },
+    {
+      "id": "news-600519-5",
+      "title": "白酒行业库存去化仍需时间",
+      "sentiment": "neutral",
+      "source": "证券时报",
+      "date": "2026-10-19",
+      "summary": "渠道调研显示部分区域库存仍高于去年同期，动销恢复呈现分化。",
+      "url": "https://example.com/demo/600519/5"
+    }
+  ],
+  "300750": [
+    {
+      "id": "news-300750-1",
+      "title": "宁德时代发布新一代储能电池，循环寿命提升 30%",
+      "sentiment": "positive",
+      "source": "公司公告",
+      "date": "2026-10-27",
+      "summary": "新产品面向海外大型储能市场，预计明年开始批量交付。",
+      "url": "https://example.com/demo/300750/1"
+    },
+    {
+      "id": "news-300750-2",
+      "title": "宁德时代获欧洲车企长期供货协议",
+      "sentiment": "positive",
+      "source": "财联社",
+      "date": "2026-10-23",
+      "summary": "协议覆盖未来五年动力电池需求，进一步巩固海外市场份额。",
+      "url": "https://example.com/demo/300750/2"
+    },
+    {
+      "id": "news-300750-3",
+      "title": "锂价反弹引发电池成本担忧",
+      "sentiment": "negative",
+      "source": "证券时报",
+      "date": "2026-10-23",
+      "summary": "碳酸锂价格短期上行，市场担心二线电池厂盈利承压。",
+      "url": "https://example.com/demo/300750/3"
+    },
+    {
+      "id": "news-300750-4",
+      "title": "宁德时代三季度出货量超预期",
+      "sentiment": "positive",
+      "source": "机构研报",
+      "date": "2026-10-21",
+      "summary": "动力与储能电池出货均保持增长，产能利用率环比提升。",
+      "url": "https://example.com/demo/300750/4"
+    },
+    {
+      "id": "news-300750-5",
+      "title": "行业价格战延续，电池单价承压",
+      "sentiment": "negative",
+      "source": "财联社",
+      "date": "2026-10-19",
+      "summary": "国内动力电池市场竞争激烈，部分产品报价继续下探。",
+      "url": "https://example.com/demo/300750/5"
+    }
+  ],
+  "000001": [
+    {
+      "id": "news-000001-1",
+      "title": "平安银行三季度净息差继续收窄",
+      "sentiment": "negative",
+      "source": "公司公告",
+      "date": "2026-10-27",
+      "summary": "贷款重定价与存款成本刚性对净息差形成压力，营收增速放缓。",
+      "url": "https://example.com/demo/000001/1"
+    },
+    {
+      "id": "news-000001-2",
+      "title": "平安银行零售不良率环比改善",
+      "sentiment": "positive",
+      "source": "机构研报",
+      "date": "2026-10-23",
+      "summary": "零售风险指标出现企稳迹象，拨备覆盖率保持较高水平。",
+      "url": "https://example.com/demo/000001/2"
+    },
+    {
+      "id": "news-000001-3",
+      "title": "银行板块获长线资金增配",
+      "sentiment": "positive",
+      "source": "证券时报",
+      "date": "2026-10-23",
+      "summary": "低估值高股息特征吸引保险与被动资金增配。",
+      "url": "https://example.com/demo/000001/3"
+    },
+    {
+      "id": "news-000001-4",
+      "title": "平安银行调整零售信贷投放节奏",
+      "sentiment": "neutral",
+      "source": "财联社",
+      "date": "2026-10-21",
+      "summary": "公司主动压降高风险零售资产，短期规模增长放缓。",
+      "url": "https://example.com/demo/000001/4"
+    }
+  ],
+  "601318": [
+    {
+      "id": "news-601318-1",
+      "title": "中国平安寿险新业务价值同比增长 12%",
+      "sentiment": "positive",
+      "source": "公司公告",
+      "date": "2026-10-27",
+      "summary": "代理人渠道改革逐步见效，新业务价值率同比提升。",
+      "url": "https://example.com/demo/601318/1"
+    },
+    {
+      "id": "news-601318-2",
+      "title": "保险资金权益配置比例上升",
+      "sentiment": "positive",
+      "source": "机构研报",
+      "date": "2026-10-23",
+      "summary": "长期资金入市政策推进，头部险企投资端弹性增强。",
+      "url": "https://example.com/demo/601318/2"
+    },
+    {
+      "id": "news-601318-3",
+      "title": "长端利率下行压制保险股估值",
+      "sentiment": "negative",
+      "source": "财联社",
+      "date": "2026-10-23",
+      "summary": "10 年期国债收益率走低，市场担忧险企利差损风险。",
+      "url": "https://example.com/demo/601318/3"
+    },
+    {
+      "id": "news-601318-4",
+      "title": "中国平安完成年度分红派息",
+      "sentiment": "positive",
+      "source": "公司公告",
+      "date": "2026-10-21",
+      "summary": "公司维持稳定的分红政策，股息率具备吸引力。",
+      "url": "https://example.com/demo/601318/4"
+    }
+  ],
+  "002594": [
+    {
+      "id": "news-002594-1",
+      "title": "比亚迪月度销量再创新高",
+      "sentiment": "positive",
+      "source": "公司公告",
+      "date": "2026-10-27",
+      "summary": "新能源乘用车销量同比增长，海外市场贡献持续提升。",
+      "url": "https://example.com/demo/002594/1"
+    },
+    {
+      "id": "news-002594-2",
+      "title": "比亚迪高端品牌门店扩张提速",
+      "sentiment": "positive",
+      "source": "财联社",
+      "date": "2026-10-23",
+      "summary": "高端车型矩阵逐步完善，单车均价有望上行。",
+      "url": "https://example.com/demo/002594/2"
+    },
+    {
+      "id": "news-002594-3",
+      "title": "欧盟关税政策带来短期不确定性",
+      "sentiment": "negative",
+      "source": "证券时报",
+      "date": "2026-10-23",
+      "summary": "海外贸易政策变化可能影响部分车型出口节奏。",
+      "url": "https://example.com/demo/002594/3"
+    },
+    {
+      "id": "news-002594-4",
+      "title": "行业促销加剧，单车盈利承压",
+      "sentiment": "negative",
+      "source": "机构研报",
+      "date": "2026-10-21",
+      "summary": "国内价格竞争延续，市场关注毛利率变化。",
+      "url": "https://example.com/demo/002594/4"
+    }
+  ],
+  "600036": [
+    {
+      "id": "news-600036-1",
+      "title": "招商银行财富管理收入环比修复",
+      "sentiment": "positive",
+      "source": "公司公告",
+      "date": "2026-10-27",
+      "summary": "代销保险与基金业务回暖，中间业务收入改善。",
+      "url": "https://example.com/demo/600036/1"
+    },
+    {
+      "id": "news-600036-2",
+      "title": "招商银行资产质量保持稳健",
+      "sentiment": "positive",
+      "source": "机构研报",
+      "date": "2026-10-23",
+      "summary": "不良生成率处于低位，拨备覆盖率维持行业前列。",
+      "url": "https://example.com/demo/600036/2"
+    },
+    {
+      "id": "news-600036-3",
+      "title": "零售信贷需求仍偏弱",
+      "sentiment": "negative",
+      "source": "财联社",
+      "date": "2026-10-23",
+      "summary": "居民加杠杆意愿不足，零售贷款增速低于预期。",
+      "url": "https://example.com/demo/600036/3"
+    },
+    {
+      "id": "news-600036-4",
+      "title": "高股息银行股受配置资金青睐",
+      "sentiment": "positive",
+      "source": "证券时报",
+      "date": "2026-10-21",
+      "summary": "低利率环境下，稳定分红资产吸引力提升。",
+      "url": "https://example.com/demo/600036/4"
+    }
+  ]
+}

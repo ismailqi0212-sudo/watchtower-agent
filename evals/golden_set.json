@@ -1,0 +1,173 @@
+[
+  {
+    "id": "g01",
+    "symbol": "600519",
+    "label": "白酒龙头 / 趋势多头",
+    "required_tools": [
+      "get_quote",
+      "compute_indicators",
+      "search_news",
+      "get_fundamentals"
+    ],
+    "expected_actions": [
+      "buy",
+      "add",
+      "hold"
+    ],
+    "must_have_evidence_kinds": [
+      "quote",
+      "indicator",
+      "news",
+      "fundamental"
+    ]
+  },
+  {
+    "id": "g02",
+    "symbol": "300750",
+    "label": "成长龙头 / 高动量",
+    "required_tools": [
+      "get_quote",
+      "compute_indicators",
+      "search_news",
+      "get_benchmark"
+    ],
+    "expected_actions": [
+      "buy",
+      "add",
+      "hold"
+    ],
+    "must_have_evidence_kinds": [
+      "quote",
+      "indicator",
+      "news",
+      "benchmark"
+    ]
+  },
+  {
+    "id": "g03",
+    "symbol": "000001",
+    "label": "弱势银行 / 基本面缺失",
+    "required_tools": [
+      "get_quote",
+      "compute_indicators",
+      "search_news",
+      "get_fundamentals"
+    ],
+    "expected_actions": [
+      "reduce",
+      "sell",
+      "watch"
+    ],
+    "must_have_evidence_kinds": [
+      "quote",
+      "indicator",
+      "news"
+    ],
+    "expect_partial_data": true
+  },
+  {
+    "id": "g04",
+    "symbol": "601318",
+    "label": "保险 / 震荡整理",
+    "required_tools": [
+      "get_quote",
+      "compute_indicators",
+      "search_news",
+      "get_fundamentals"
+    ],
+    "expected_actions": [
+      "hold",
+      "watch",
+      "add"
+    ],
+    "must_have_evidence_kinds": [
+      "quote",
+      "indicator",
+      "fundamental"
+    ]
+  },
+  {
+    "id": "g05",
+    "symbol": "002594",
+    "label": "新能源车 / 强趋势",
+    "required_tools": [
+      "get_quote",
+      "compute_indicators",
+      "search_news",
+      "get_benchmark"
+    ],
+    "expected_actions": [
+      "buy",
+      "add",
+      "hold"
+    ],
+    "must_have_evidence_kinds": [
+      "quote",
+      "indicator",
+      "news",
+      "benchmark"
+    ]
+  },
+  {
+    "id": "g06",
+    "symbol": "600036",
+    "label": "零售银行 / 稳健趋势",
+    "required_tools": [
+      "get_quote",
+      "compute_indicators",
+      "search_news",
+      "get_fundamentals"
+    ],
+    "expected_actions": [
+      "watch",
+      "hold",
+      "add"
+    ],
+    "must_have_evidence_kinds": [
+      "quote",
+      "indicator",
+      "news",
+      "fundamental"
+    ]
+  },
+  {
+    "id": "g07",
+    "symbol": "贵州茅台",
+    "label": "名称解析 / 同标的多入口",
+    "required_tools": [
+      "get_quote",
+      "compute_indicators",
+      "search_news"
+    ],
+    "expected_actions": [
+      "buy",
+      "add",
+      "hold"
+    ],
+    "must_have_evidence_kinds": [
+      "quote",
+      "indicator",
+      "news"
+    ]
+  },
+  {
+    "id": "g08",
+    "symbol": "宁德时代",
+    "label": "名称解析 / 成长龙头",
+    "required_tools": [
+      "get_quote",
+      "compute_indicators",
+      "search_news"
+    ],
+    "expected_actions": [
+      "buy",
+      "add",
+      "hold"
+    ],
+    "must_have_evidence_kinds": [
+      "quote",
+      "indicator",
+      "news"
+    ]
+  }
+]

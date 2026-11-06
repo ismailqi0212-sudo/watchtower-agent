@@ -1,0 +1,7 @@
+# Real market-data dependencies. Install this instead of requirements.txt
+# when DATA_PROVIDER=akshare or DATA_PROVIDER=yfinance.
+-r requirements.txt
+
+akshare>=1.18
+yfinance>=1.2
+tavily-python>=0.5

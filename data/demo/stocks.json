@@ -1,0 +1,44 @@
+[
+  {
+    "symbol": "600519",
+    "name": "贵州茅台",
+    "market": "cn",
+    "industry": "白酒",
+    "exchange": "SSE"
+  },
+  {
+    "symbol": "300750",
+    "name": "宁德时代",
+    "market": "cn",
+    "industry": "动力电池",
+    "exchange": "SZSE"
+  },
+  {
+    "symbol": "000001",
+    "name": "平安银行",
+    "market": "cn",
+    "industry": "股份制银行",
+    "exchange": "SZSE"
+  },
+  {
+    "symbol": "601318",
+    "name": "中国平安",
+    "market": "cn",
+    "industry": "保险",
+    "exchange": "SSE"
+  },
+  {
+    "symbol": "002594",
+    "name": "比亚迪",
+    "market": "cn",
+    "industry": "新能源车",
+    "exchange": "SZSE"
+  },
+  {
+    "symbol": "600036",
+    "name": "招商银行",
+    "market": "cn",
+    "industry": "股份制银行",
+    "exchange": "SSE"
+  }
+]

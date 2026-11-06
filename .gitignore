@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.npm-cache/
+node_modules/
+web/dist/
+data/watchtower.db*
+reports/
+*.log
+data/uploads/
+data/logs/
+demo/Watchtower.app/

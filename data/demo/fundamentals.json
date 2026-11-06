@@ -1,0 +1,73 @@
+{
+  "600519": {
+    "as_of": "2026-10-28",
+    "industry": "白酒",
+    "pe": 24.8,
+    "pb": 8.1,
+    "roe": 31.2,
+    "market_cap_billion": 2180.0,
+    "dividend_yield": 2.6,
+    "revenue_growth": 9.8,
+    "profit_growth": 11.4,
+    "note": "高端白酒龙头，品牌壁垒与现金流质量突出。"
+  },
+  "300750": {
+    "as_of": "2026-10-28",
+    "industry": "动力电池",
+    "pe": 28.4,
+    "pb": 5.2,
+    "roe": 21.6,
+    "market_cap_billion": 1140.0,
+    "dividend_yield": 1.1,
+    "revenue_growth": 18.5,
+    "profit_growth": 22.3,
+    "note": "动力与储能双轮驱动，海外扩张是主要增量。"
+  },
+  "000001": {
+    "as_of": "2026-10-28",
+    "industry": "股份制银行",
+    "pe": 5.2,
+    "pb": 0.55,
+    "market_cap_billion": 228.0,
+    "dividend_yield": 5.8,
+    "revenue_growth": -2.1,
+    "profit_growth": -3.4,
+    "note": "零售银行转型中，净息差与资产质量是核心变量。"
+  },
+  "601318": {
+    "as_of": "2026-10-28",
+    "industry": "保险",
+    "pe": 7.6,
+    "pb": 0.92,
+    "roe": 11.8,
+    "market_cap_billion": 1060.0,
+    "dividend_yield": 5.2,
+    "revenue_growth": 6.2,
+    "profit_growth": 9.1,
+    "note": "综合金融集团，寿险改革与投资端弹性是关键。"
+  },
+  "002594": {
+    "as_of": "2026-10-28",
+    "industry": "新能源车",
+    "pe": 22.1,
+    "pb": 4.6,
+    "roe": 19.4,
+    "market_cap_billion": 910.0,
+    "dividend_yield": 0.8,
+    "revenue_growth": 24.6,
+    "profit_growth": 28.9,
+    "note": "新能源车龙头，规模效应与出海是主要看点。"
+  },
+  "600036": {
+    "as_of": "2026-10-28",
+    "industry": "股份制银行",
+    "pe": 6.4,
+    "pb": 0.88,
+    "roe": 15.3,
+    "market_cap_billion": 1050.0,
+    "dividend_yield": 5.5,
+    "revenue_growth": 1.8,
+    "profit_growth": 3.2,
+    "note": "零售银行标杆，财富管理与资产质量稳健。"
+  }
+}

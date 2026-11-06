@@ -1,0 +1,36 @@
+name: Daily watchlist review
+
+on:
+  schedule:
+    # 10:00 UTC = 18:00 Asia/Shanghai, weekdays
+    - cron: "0 10 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install backend dependencies
+        run: pip install -r requirements-real.txt
+      - name: Run daily review
+        env:
+          STOCK_LIST: ${{ vars.STOCK_LIST || secrets.STOCK_LIST }}
+          DATA_PROVIDER: ${{ vars.DATA_PROVIDER || 'auto' }}
+          NEWS_PROVIDER: ${{ vars.NEWS_PROVIDER || 'auto' }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL || secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL || secrets.LLM_MODEL }}
+        run: python scripts/daily_run.py --trigger schedule
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: watchtower-daily
+          path: reports/
+          if-no-files-found: warn

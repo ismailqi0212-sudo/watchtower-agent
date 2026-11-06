@@ -1,0 +1,12 @@
+.git
+.venv
+.npm-cache
+.pytest_cache
+__pycache__
+*.pyc
+.env
+data/watchtower.db
+data/watchtower.db-*
+web/node_modules
+web/dist
+reports
